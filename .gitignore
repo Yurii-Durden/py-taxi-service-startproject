@@ -17,10 +17,6 @@ env/
 .env
 .DS_Store
 
-# Django-міграції (згенеровані)
-*/migrations/*.py
-!*/migrations/__init__.py
-
 # Логи та дампи бази
 logs/
 *.log
