@@ -1,33 +1,6 @@
-дай у нього правила для ігнорування файлів
-Для Django-проєкту рекомендую такий .gitignore:
-
-bash
-Copy
-Edit
-# Ігноруємо середовище Python
-__pycache__/
-*.py[cod]
-*.sqlite3
-
-# Віртуальне середовище
 venv/
-env/
-
-# Файли конфігурації
-.env
-.DS_Store
-
-# Логи та дампи бази
-logs/
-*.log
+*.venv
 db.sqlite3
-*.db
-
-# Статичні та медіа файли
-staticfiles/
-media/
-
-# Кеші
-*.swp
-.vscode/
+*.log
 .idea/
+__pycache__/
